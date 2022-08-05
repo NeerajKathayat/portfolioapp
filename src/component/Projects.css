@@ -1,6 +1,7 @@
 .Project{
     height: 100vh;
     background: white;
+    padding-bottom: 40px;
 }
 .Project h1{
     padding-top: 34px;
