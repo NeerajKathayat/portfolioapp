@@ -118,4 +118,12 @@
         width: 260px;
        
     }
+    .Card img{
+        width:100%;
+        height:59%;
+    }
+    .carousel{
+        height: 366px;
+    }
+
 }

@@ -45,7 +45,10 @@ export default function Projects() {
               </Tilt>
               <Tilt className='ala' style={{width:'471px',height:'531px',marginBottom:'38px'}}>
              <div className="Card">
+              <div className="">
               <img src={img4} alt=""/>
+              </div>
+            
               <h3>MusicPlayer WebApp</h3>
               <p >It's MusicPlayer App that can Play the Music of your custom Music Gallery.</p>
               </div>
