@@ -1,0 +1,109 @@
+.Project{
+    height: 100vh;
+    background: white;
+}
+.Project h1{
+    padding-top: 34px;
+}
+.para{
+    text-align: center;
+    font-size: 23px;
+    padding: 0 86px;
+}
+
+.Card{
+        background-color: #ecf0f3;
+        width: 440px;
+        height: 500px;
+        padding: 15px;
+        margin-bottom: 12px;
+        box-shadow: inset 5px 5px 12px #ffffff,5px 5px 12px rgba(0,0,0,.16);
+    
+}
+.Card:hover{
+    cursor: pointer;
+    /* box-shadow:5px 5px 12px rgba(0,0,0,.16) ; */
+}
+.Card img{
+    width:100%;
+    height:70%;
+}
+.Card h3{
+    margin: 12px 0;
+}
+.container{
+    padding: 0 130px;
+    margin-top: 53px;
+}
+.container p{
+    font-size: 20px;
+}
+
+@media(max-width:1565px){
+    .container{
+        padding: 0 111px;
+    }
+    .Project{
+        height: 100%;
+    }
+}
+
+@media(max-width:1274px){
+    .container{
+        padding: 0 93px;
+    }
+}
+
+@media(max-width:1000px){
+    .container{
+        padding: 0 53px;
+        margin-top: 32px;
+    }
+    .Project h1{
+        font-size: 3rem;
+    }
+    .para{
+        font-size: 20px;
+        padding: 0 62px;
+    }
+}
+@media(max-width:800px){
+    .container{
+        padding: 0 ;
+    }
+}
+
+@media(max-width:567px){
+    .Card{
+        width: 421px;
+       
+    }
+    .container p{
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width:527px){
+    .Card{
+        width: 383px;
+       
+    }
+
+
+}
+
+
+@media(max-width:430px){
+    .Project h1{
+        font-size: 2rem;
+    }
+    .para{
+        font-size: 15px;
+        padding: 0 15px;
+    }
+    .Card{
+        width: 260px;
+       
+    }
+}

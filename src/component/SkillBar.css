@@ -1,0 +1,161 @@
+.skills-bar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  padding: 15px 30px;
+  margin: auto;
+}
+.skills-bar .bar {
+  margin-top: 50px;
+  width: 600px;
+}
+/* .skills-bar .bar:first-child {
+  margin-top: 0px;
+} */
+
+.skills-bar .bar .info span {
+  font-size: 27px;
+  font-weight: 500;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+
+}
+@keyframes showText{
+    100%{
+        opacity: 1;
+    }
+}
+
+.skills-bar .bar .progress-line {
+    margin-top: 12px;
+  position: relative;
+  height: 12px;
+  width: 100%;
+  background: #161616;
+  border-radius: 8px;
+  transform: scaleX(0);
+  transform-origin: left;
+  /* box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5),
+    0px 1px rgba(255, 255, 255, 0.8); */
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.bar .progress-line span {
+  height: 105%;
+  background: #6665ee;
+  position: absolute;
+  border-radius: 11px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.progress-line.html span {
+    width: 80%;
+  }
+  .progress-line.CSS span {
+    width: 75%;
+  }
+  .progress-line.JavaScript span{
+    width: 70%;
+  }
+  .progress-line.ReactJs span {
+    width: 70%;
+  }
+  .progress-line.Java span {
+    width: 80%;
+  }
+  .progress-line.SQL span {
+    width: 60%;
+  }
+  
+
+.bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -11px;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: white;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+
+}
+@keyframes showText2{
+    100%{
+        opacity: 1;
+    }
+}
+
+.bar .progress-line span::after {
+  position: absolute;
+  right: 0;
+  top: -25px;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+  padding: 1px 8px;
+  background: white;
+  border-radius: 3px;
+}
+
+.progress-line.html span::after {
+  content: "80%";
+}
+.progress-line.CSS span::after {
+  content: "75%";
+}
+.progress-line.JavaScript span::after {
+  content: "70%";
+}
+.progress-line.ReactJs span::after {
+  content: "70%";
+}
+.progress-line.Java span::after {
+  content: "80%";
+}
+.progress-line.SQL span::after {
+  content: "60%";
+}
+
+
+
+
+
+@media(max-width:720px){
+    .skills-bar .bar{
+        width: 451px;
+    }
+    .skills-bar .bar .info span{
+        font-size: 23px;
+    }
+}
+
+@media(max-width:470px){
+    .skills-bar .bar{
+        width: 262px;
+    }
+    .skills-bar .bar .info span{
+        font-size: 12px;
+    }
+    .skills-bar .bar .progress-line {
+        height: 8px;
+    }
+    .bar .progress-line span::after{
+        font-size: 10px;
+        top:-23px;
+    }
+    .skills-bar .bar{
+      margin-top: 20px;
+    }
+}

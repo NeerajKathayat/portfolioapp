@@ -1,0 +1,27 @@
+.footer{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 43px;
+    margin: 10px 0;
+}
+
+.footericon{
+    display: flex;
+    
+}
+
+.footericon a{
+    margin: 0 12px;
+  }
+  .footericon a i{
+    color: white;
+      font-size: 14px;
+      transition: all ease 0.5s;
+  }
+  .footericon a i:hover {
+      color: #17d1ac;
+  }
+
+  
