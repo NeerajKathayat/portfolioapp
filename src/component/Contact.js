@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="Contact" id="contact">
       <div className="content">
          <h1 data-aos="fade-down">Contact Us</h1>
-         <p data-aos="fade-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet pariatur minima, natus inventore beatae nihil sed esse quaerat, enim quas quis, obcaecati a officia?</p>
+         <p data-aos="fade-down">Lorem ipsum dolor sit Amet pariatur minima, natus inventore beatae nihil sed esse quaerat, enim quas quis, obcaecati a officia?</p>
        </div>
        <div className="ContactContainer" >
         <div className="contactInfo" data-aos="fade-down">

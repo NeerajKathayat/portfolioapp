@@ -31,17 +31,21 @@
     color:rgba(251,251,251,0.90);
     padding: 20px 0;
 }
-.about-text button{
+.about-text .btn1{
  width: 180px;
  height: 40px;
  border-radius: 20px;
  border: none;
  outline: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
  background-color: #17d1ac;
  transition: all ease 0.3s;
 }
-.about-text button:hover{
+.about-text .btn1:hover{
     background-color:#ffffff;
+    cursor: pointer;
 
 }
 
@@ -54,9 +58,7 @@
         width: 436px;
         
     }
-    #about{
-        /* flex-wrap:wrap-reverse; */
-    }
+
     .about-text h1{
         font-size: 4rem;
     }
@@ -64,7 +66,7 @@
         font-size: 2rem;
     }
     
-.about-text button{
+.about-text .btn1{
     width: 144px;
 }
 }
@@ -83,8 +85,9 @@
     .about-text h1{
         font-size: 3rem;
     }
-    .about-text button{
-        width: 111px;
+    .about-text .btn1{
+        width: 100px;
+        font-size: 12px;
     }
 }
 

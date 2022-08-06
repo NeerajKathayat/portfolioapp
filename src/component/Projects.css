@@ -74,7 +74,7 @@
 }
 @media(max-width:800px){
     .container{
-        padding: 0 ;
+        padding: 0 3px ;
     }
 }
 
@@ -94,12 +94,15 @@
 
 @media(max-width:527px){
     .Card{
-        width: 383px;
+        width: 336px;
         height: 450px;
        
     }
     .Card p{
         display: none;
+    }
+    .carousel{
+        height: 421px;
     }
 
 
@@ -115,7 +118,7 @@
         padding: 0 15px;
     }
     .Card{
-        width: 260px;
+        width: 250px;
        
     }
     .Card img{
@@ -125,5 +128,5 @@
     .carousel{
         height: 366px;
     }
-
+ 
 }

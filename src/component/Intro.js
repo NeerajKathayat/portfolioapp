@@ -17,7 +17,7 @@ export default class Intro extends Component {
             
             </h1>
             <p className="details"> 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsa mollitia libero velit dolorem dicta aperiam! Esse fugiat dolor harum, repellendus magni porro sed vel dolores cumque ex? Maiores officiis voluptates dicta dolorem repudiandae!
+            An Ambitious and Enthusiastic Developer Fresher who is a self starter and capable to use technical skills for the betterment of the organization.
             </p>
             <div className="smg-btn">
                 <a href={Resume} className="cv-btn" download={Resume} >Download CV</a>
