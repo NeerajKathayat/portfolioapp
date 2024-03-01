@@ -13,11 +13,11 @@ export default class Intro extends Component {
       <div className='Intro'>
         <div className="name">
             <p>Hello</p>
-            <h1><Typewritter options={{strings:["I'm Neeraj Kathayat","I'm FrontEnd Developer"],loop:true,autoStart:true}}/>
+            <h1><Typewritter options={{strings:["I'm Neeraj Kathayat","I'm Full Stack Developer"],loop:true,autoStart:true}}/>
             
             </h1>
             <p className="details"> 
-            An Ambitious and Enthusiastic Developer Fresher who is a self starter and capable to use technical skills for the betterment of the organization.
+            A motivated Developer Fresher adept at problem-solving, eager to contribute technical skills for organizational growth.
             </p>
             <div className="smg-btn">
                 <a href={Resume} className="cv-btn" download={Resume} >Download CV</a>

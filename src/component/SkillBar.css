@@ -57,22 +57,22 @@
 }
 
 .progress-line.html span {
-    width: 80%;
+    width: 97%;
   }
   .progress-line.CSS span {
-    width: 75%;
+    width: 94%;
   }
   .progress-line.JavaScript span{
-    width: 70%;
+    width: 95%;
   }
   .progress-line.ReactJs span {
-    width: 70%;
+    width: 90%;
   }
-  .progress-line.Java span {
+  .progress-line.NodeJs span {
+    width: 90%;
+  }
+  .progress-line.Mongodb span {
     width: 80%;
-  }
-  .progress-line.SQL span {
-    width: 60%;
   }
   
 
@@ -121,11 +121,11 @@
 .progress-line.ReactJs span::after {
   content: "70%";
 }
-.progress-line.Java span::after {
-  content: "80%";
+.progress-line.NodeJs span::after {
+  content: "90%";
 }
-.progress-line.SQL span::after {
-  content: "60%";
+.progress-line.Mongodb span::after {
+  content: "80%";
 }
 
 

@@ -5,6 +5,7 @@ import img2 from './Traker.jpeg'
 import Carousel from 'react-elastic-carousel'
 import img3 from './Weather.jpeg'
 import img4 from './Music.jpeg'
+import img5 from './NFT.jpg'
 import Tilt from 'react-vanilla-tilt'
 
 export default function Projects() {
@@ -18,11 +19,18 @@ export default function Projects() {
     <div>
       <div className="Project" id='project'>
           <h1 data-aos="fade-down">My Projects</h1>
-          <p data-aos="fade-down" className='para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est quos odio, laudantium esse nihil suscipit earum laboriosam et voluptas, tempore quisquam assumenda totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Id porro illo ipsum sed officia, quia repudiandae animi fugit facilis autem atque, doloribus perspiciatis?</p>
+          <p data-aos="fade-down" className='para'>"Welcome to my Projects Showcase! Here you'll find a curated selection of my latest web applications, highlighting my passion for coding and innovation. Dive into each project to discover the solutions I've crafted and the technologies powering them."</p>
         <div data-aos="fade-down" className="container">
          
           <Carousel className='carousel' breakPoints={breakPoints}  >
-          <Tilt className='ala' style={{width:'471px',height:'531px',marginBottom:'38px'}}>
+             <Tilt className='ala' style={{width:'471px',height:'531px',marginBottom:'38px'}}>
+             <div className="Card">
+              <img src={img5} alt=""/>
+              <h3>NFT MarketPlace</h3>
+              <p>It is an BlockChain Based Project.I have Used Ethereum Blockchain. You can Upload Your Digital ArtWork on this Platform and Create it's NFT to Safe your OwnerShip.</p>
+              </div>
+              </Tilt>
+             <Tilt className='ala' style={{width:'471px',height:'531px',marginBottom:'38px'}}>
              <div className="Card">
               <img src={img1} alt=""/>
               <h3>News WebApp</h3>

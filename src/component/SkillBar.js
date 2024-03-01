@@ -27,22 +27,23 @@ export default function SkillBar() {
             <div className="dsp">
             <div className="bar">
                 <div className="info">
-                    <span>ReactJs</span>
+                    <span>ReactJs/Redux</span>
                 </div>
                 <div className="progress-line ReactJs"><span></span></div>
             </div>
             <div className="bar">
                 <div className="info">
-                    <span>Java</span>
+                    <span>Node Js / Express Js</span>
                 </div>
-                <div className="progress-line Java"><span></span></div>
+                <div className="progress-line NodeJs"><span></span></div>
             </div>
             <div className="bar">
                 <div className="info">
-                    <span>SQL</span>
+                    <span>Mongodb</span>
                 </div>
-                <div className="progress-line SQL"><span></span></div>
+                <div className="progress-line Mongodb"><span></span></div>
             </div>
+            
             </div>
           </div>
     </div>
